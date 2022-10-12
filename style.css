@@ -1,0 +1,62 @@
+html {
+   font-family: "Montserrat", sans-serif;
+   position: relative;
+   height: 100%;
+}
+html::after {
+   content: "";
+   display: block;
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   opacity: 0.5;
+   z-index: -1;
+   background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/07/Download-Free-Weather-Background-768x432.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   background-position: center;
+}
+.bgr {
+   display: inline-block;
+   position: relative;
+   left: 50%;
+   width: 50%;
+   transform: translateX(-50%);
+   margin-top: 100px;
+   background-color: #bad7df;
+   border: 1px solid #bad7df;
+   border-radius: 5px;
+}
+.search {
+   margin-top: 20px;
+}
+.search #weather-find {
+   margin-right: 10px;
+   background-color: transparent;
+   outline: none;
+   border-width: 3px;
+   border-color: #ffe2e2;
+   border-radius: 10px;
+}
+.search button {
+   background-color: transparent;
+   padding: 5px 10px;
+   border-width: 3px;
+   border-radius: 10px;
+   border-color: #ffe2e2;
+}
+.search button:hover {
+   background-color: #ffe2e2;
+}
+.search button:hover > svg {
+   fill: #f6f6f6;
+}
+h2 {
+   padding-left: 10px;
+}
+p {
+   padding-left: 5px;
+}
